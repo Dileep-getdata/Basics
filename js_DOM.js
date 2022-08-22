@@ -6,12 +6,12 @@ const use=document.querySelector('#items');
 btn.addEventListener('mouseover',onMouse);
 function onMouse(e){
     e.preventDefault();
-    btn.style.background='gray';
+    btn.style.background='powerblue';
 }
 btn.addEventListener('mouseout',offMouse);
 function offMouse(e){
     e.preventDefault();
-    btn.style.color='white';
+    btn.style.color='lightblue';
 }
 myform.addEventListener('submit',onSubmit);
 function onSubmit(e){
